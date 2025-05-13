@@ -1,7 +1,12 @@
 import React from "react";
+import SubHeader from "../components/home/SubHeader";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <React.Fragment>
+      <SubHeader />
+    </React.Fragment>
+  );
 };
 
 export default Home;
