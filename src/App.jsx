@@ -1,7 +1,12 @@
+import { ThemeProvider } from "@shadcn/ThemeProvider";
 import React from "react";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      App
+    </ThemeProvider>
+  );
 };
 
 export default App;
