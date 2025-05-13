@@ -1,10 +1,11 @@
 import { ThemeProvider } from "@shadcn/ThemeProvider";
 import React from "react";
+import Router from "./Router";
 
 const App = () => {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      App
+    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+      <Router />
     </ThemeProvider>
   );
 };
