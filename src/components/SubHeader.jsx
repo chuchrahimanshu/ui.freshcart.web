@@ -1,5 +1,5 @@
 import React from "react";
-import LayoutStructure from "../global/LayoutStructure";
+import LayoutStructure from "./LayoutStructure";
 
 const SubHeader = () => {
   return (

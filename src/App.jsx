@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@shadcn/ThemeProvider";
+import { ThemeProvider } from "./shadcn/ThemeProvider";
 import React from "react";
 import Router from "./Router";
 
