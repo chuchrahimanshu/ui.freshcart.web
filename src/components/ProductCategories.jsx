@@ -66,25 +66,29 @@ export default function ProductCategories() {
               <button
                 aria-label="Previous"
                 className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 cursor-pointer"
-                onClick={scrollLeft}>
+                onClick={scrollLeft}
+              >
                 <ChevronLeft className="w-6 h-6" />
               </button>
               <button
                 aria-label="Next"
                 className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 cursor-pointer"
-                onClick={scrollRight}>
+                onClick={scrollRight}
+              >
                 <ChevronRight className="w-6 h-6" />
               </button>
             </div>
           </div>
           <div
             ref={scrollContainerRef}
-            className="flex space-x-4 overflow-x-auto hide-scrollbar">
+            className="flex space-x-4 overflow-x-auto hide-scrollbar"
+          >
             {categories.map((category) => (
               <a
                 href="../pages/shop-grid.html"
                 key={category}
-                className="min-w-[220px] block text-center no-underline text-inherit">
+                className="min-w-[220px] block text-center no-underline text-inherit"
+              >
                 <Card className="p-4 mb-4 border border-[#dee2e0] hover:border-[#0bac0a] hover:shadow-lg transition-shadow duration-300">
                   <div className="flex flex-col items-center py-8">
                     <img
